@@ -82,5 +82,23 @@ public class HelloWorld {
         return -1;
         //return pos;
     }
+    //funzione che prende in input un array ed un numero e ritorni true se la somma di tutti gli elemnti dell'array è pari a quel numero
+    public static boolean checkSumValue(int[] nums, int target){
+        int sum=0;
+        for (int i=0; i < nums.length; i++){
+            //System.out.println(nums[i]);
+            sum=sum+nums[i];
+            //sum+=nums[i]; SHORTCUT
+            //sum+num[i]; SBAGLIATO
+        }
+        return sum==target;
+        //if(sum == target){
+        //    return true;
+        //}
+        //return false;
+        //else{
+        //    return false;
+        //}
+    }
 }
 
