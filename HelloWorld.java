@@ -70,5 +70,17 @@ public class HelloWorld {
     public static void alfreFunction(){
 
     }
+    public static int findNumber(int[] nums, int x){
+        //int pos=-1;
+        for(int i=0; i < nums.length; i++){
+            if(nums[i] == x){
+                return i;
+                //pos=i;
+                //break;
+            }
+        }
+        return -1;
+        //return pos;
+    }
 }
 
