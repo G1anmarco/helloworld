@@ -67,4 +67,8 @@ public class HelloWorld {
         }
         return valMinEven;
     }
+    public static void alfreFunction(){
+
+    }
 }
+
