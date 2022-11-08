@@ -68,7 +68,6 @@ public class HelloWorld {
         return valMinEven;
     }
     public static void alfreFunction(){
-
     }
     public static int findNumber(int[] nums, int x){
         //int pos=-1;
@@ -101,4 +100,3 @@ public class HelloWorld {
         //}
     }
 }
-
